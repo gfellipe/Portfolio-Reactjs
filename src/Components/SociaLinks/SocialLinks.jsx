@@ -20,7 +20,7 @@ export const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GithHub <FaGithub size={30} />
+          GitHub <FaGithub size={30} />
         </>
       ),
       to: "https://github.com/gfellipe",
@@ -38,10 +38,10 @@ export const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Curriculo <BsFillPersonLinesFill size={30} />
+          Currículo <BsFillPersonLinesFill size={30} />
         </>
       ),
-      to: "/public/Currículo-Gabriel-Fellipe.pdf",
+      to: "/Currículo-Gabriel-Fellipe.pdf",
       style: "rounded-br-md",
       download: true,
     },
@@ -59,15 +59,24 @@ export const SocialLinks = () => {
               style
             }
           >
-            <a
-              href={to}
-              className="flex justify-between items-center w-full text-white"
-              download={download}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {child}
-            </a>
+            {download ? (
+              <a
+                href={to}
+                className="flex justify-between items-center w-full text-white"
+                download
+                target="_blank"
+                rel="noreferrer"
+              >
+                {child}
+              </a>
+            ) : (
+              <Link
+                to={to}
+                className="flex justify-between items-center w-full text-white"
+              >
+                {child}
+              </Link>
+            )}
           </li>
         ))}
       </ul>
