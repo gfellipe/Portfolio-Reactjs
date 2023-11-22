@@ -51,6 +51,10 @@ Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas 
 
 Esperamos que este projeto seja útil para o gerenciamento eficiente do tempo, combinando a técnica Pomodoro com um histórico detalhado das tarefas realizadas. Se tiver alguma dúvida ou sugestão, não hesite em entrar em contato. Aproveite o desenvolvimento!
 
+## 🔗 Preview
+
+  <a href="https://portfolio-wheat-delta-89.vercel.app/" target="_blank">Ver o Portfólio</a>
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
