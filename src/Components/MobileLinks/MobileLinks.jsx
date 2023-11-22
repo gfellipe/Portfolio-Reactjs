@@ -40,7 +40,7 @@ export const MobileLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      to: "https://portfolio-wheat-delta-89.vercel.app/public/Currículo-Gabriel-Fellipe.pdf",
+      to: "public/Currículo-Gabriel-Fellipe.pdf",
       download: true,
     },
   ];
@@ -50,15 +50,15 @@ export const MobileLinks = () => {
       <ul className="flex space-x-2">
         {mobileLinks.map(({ id, child, to, style, download }) => (
           <li key={id} className="px-2 hover:rounded-md duration-300">
-            <Link
-              to={to}
-              className="flex items-center text-white"
+            <a
+              href={to}
+              className="flex justify-between items-center w-full text-white"
               download={download}
               target="_blank"
               rel="noreferrer"
             >
               {child}
-            </Link>
+            </a>
           </li>
         ))}
       </ul>

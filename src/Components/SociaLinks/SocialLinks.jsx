@@ -41,7 +41,7 @@ export const SocialLinks = () => {
           Curriculo <BsFillPersonLinesFill size={30} />
         </>
       ),
-      to: "https://portfolio-wheat-delta-89.vercel.app/public/Currículo-Gabriel-Fellipe.pdf",
+      to: "/public/Currículo-Gabriel-Fellipe.pdf",
       style: "rounded-br-md",
       download: true,
     },
@@ -59,15 +59,15 @@ export const SocialLinks = () => {
               style
             }
           >
-            <Link
-              to={to}
+            <a
+              href={to}
               className="flex justify-between items-center w-full text-white"
               download={download}
               target="_blank"
               rel="noreferrer"
             >
               {child}
-            </Link>
+            </a>
           </li>
         ))}
       </ul>
