@@ -40,7 +40,7 @@ export const MobileLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      to: "/public/Currículo-Gabriel-Fellipe.pdf",
+      to: "https://portfolio-wheat-delta-89.vercel.app/public/Currículo-Gabriel-Fellipe.pdf",
       download: true,
     },
   ];
