@@ -2,7 +2,6 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Link } from "react-router-dom";
 
 export const MobileLinks = () => {
   const mobileLinks = [
@@ -40,7 +39,7 @@ export const MobileLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      to: "public/Currículo-Gabriel-Fellipe.pdf",
+      to: "/Currículo-Gabriel-Fellipe.pdf",
       download: true,
     },
   ];
@@ -48,17 +47,28 @@ export const MobileLinks = () => {
   return (
     <div className="lg:hidden flex items-center mt-4">
       <ul className="flex space-x-2">
-        {mobileLinks.map(({ id, child, to, style, download }) => (
+        {mobileLinks.map(({ id, child, to, download }) => (
           <li key={id} className="px-2 hover:rounded-md duration-300">
-            <a
-              href={to}
-              className="flex justify-between items-center w-full text-white"
-              download={download}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {child}
-            </a>
+            {download ? (
+              <a
+                href={to}
+                className="flex justify-between items-center w-full text-white"
+                download
+                target="_blank"
+                rel="noreferrer"
+              >
+                {child}
+              </a>
+            ) : (
+              <a
+                href={to}
+                className="flex justify-between items-center w-full text-white"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {child}
+              </a>
+            )}
           </li>
         ))}
       </ul>
