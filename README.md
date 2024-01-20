@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="Secret Word" src="./public/portfolio.png" width="100%">
+  <img alt="Potfolio Preview" src="./public/portfolio.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias Utilizadas

@@ -4,6 +4,7 @@ import snapClima from "../../assets/portfolio/snapClima.png";
 import docesComAmor from "../../assets/portfolio/docesComAmor.png";
 import promodoroTimer from "../../assets/portfolio/promodoroTimer.png";
 import listaTarefas from "../../assets/portfolio/listaTarefas.png";
+import ListApp from '../../assets/portfolio/listApp.png'
 // import reactWeather from "../../assets/portfolio/reactWeather.jpg";
 
 import { Link } from "react-router-dom";
@@ -71,10 +72,16 @@ export const Projetos = () => {
         "Este é um projeto ReactJS. O objetivo principal do projeto é implementar uma aplicação de lista de tarefas com a funcionalidade de filtro e busca.",
       technologies: ["ReactJS"],
     },
-    // {
-    //   id: 6,
-    //   src: reactWeather,
-    // },
+    {
+      id: 6,
+      src: ListApp,
+      code: "https://github.com/gfellipe/ListApp",
+      demo: "https://list-app-blush.vercel.app/",
+      name: "ListApp",
+      description:
+        "Seu assistente de compras pessoal: simplifique sua vida, crie sua lista de compras de forma fácil e eficiente.",
+      technologies: ["ReactJS"],
+    },
   ];
 
   return (
