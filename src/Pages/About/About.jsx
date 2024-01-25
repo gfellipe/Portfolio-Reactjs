@@ -14,11 +14,10 @@ export const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Desenvolvedor Front-End. Trabalhando como estagiário com
-          desenvolvimento de software desde 2022, melhorando o desempenho e
-          integrações de aplicações e tenho experiência no desenvolvimento de
-          sites de e-commerce e sistemas ERP usando React.js como tecnologia
-          principal.
+          Desenvolvedor Front-End. Trabalho com desenvolvimento de software a
+          mais ou menos 1 ano, melhorando o desempenho e integrações de
+          aplicações e tenho experiência no desenvolvimento de sites de
+          e-commerce e sistemas ERP usando React.js como tecnologia principal.
         </p>
 
         <br />
