@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import techxplorers from "../../assets/portfolio/tech-xplorers.png";
 import snapClima from "../../assets/portfolio/snapClima.png";
 import docesComAmor from "../../assets/portfolio/docesComAmor.png";
-import promodoroTimer from "../../assets/portfolio/promodoroTimer.png";
+import noteExperts from "../../assets/portfolio/note-experts.png";
 import listaTarefas from "../../assets/portfolio/listaTarefas.png";
-import ListApp from '../../assets/portfolio/listApp.png'
+import ListApp from "../../assets/portfolio/listApp.png";
 // import reactWeather from "../../assets/portfolio/reactWeather.jpg";
 
 import { Link } from "react-router-dom";
@@ -47,19 +47,19 @@ export const Projetos = () => {
     },
     {
       id: 4,
-      src: promodoroTimer,
-      code: "https://github.com/gfellipe/Projeto-Pomodoro-com-Hist-rico",
-      demo: "https://projeto-pomodoro-com-hist-rico.vercel.app/",
-      name: "Promodoro Timer",
+      src: noteExperts,
+      code: "https://github.com/gfellipe/Note-Experts",
+      demo: "https://note-experts.vercel.app/",
+      name: "Notes Experts",
       description:
-        "Este é um projeto ReactJS desenvolvido utilizando TypeScript, Styled Components, Context API, Reducer, Hook Form, Zod e outras tecnologias modernas. O objetivo principal do projeto é implementar uma aplicação de Pomodoro, com a funcionalidade de histórico para acompanhar o tempo dedicado a cada tarefa..",
+        "O Note Experts é uma aplicação para transcrever texto para áudio, onde você pode adicionar uma nota através de digitação ou áudio, além de poder apagar e salvar as notas no localStorage.",
       technologies: [
         "ReactJs",
         "TypeScript",
-        "Styled Components",
-        "Context API e Reducer",
+        "Tailwind CSS",
+        "Lucide",
         "Hook Form",
-        "Zod",
+        "Sonner Radix UI",
       ],
     },
     {
