@@ -8,6 +8,7 @@ import sql from "../../assets/sql.png";
 import git from "../../assets/git.png";
 import github from "../../assets/github.png";
 import tailwind from "../../assets/tailwind.png";
+import typescript from "../../assets/ts.png";
 
 export const Experience = () => {
   const techs = [
@@ -58,6 +59,12 @@ export const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: typescript,
+      title: "TYPESCRIPT",
+      style: "shadow-blue-500",
     },
   ];
 

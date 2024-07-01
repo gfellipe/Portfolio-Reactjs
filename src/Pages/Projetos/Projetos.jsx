@@ -5,6 +5,9 @@ import docesComAmor from "../../assets/portfolio/docesComAmor.png";
 import noteExperts from "../../assets/portfolio/note-experts.png";
 import listaTarefas from "../../assets/portfolio/listaTarefas.png";
 import ListApp from "../../assets/portfolio/listApp.png";
+import MeuMercado from "../../assets/portfolio/meumercado.png";
+import CoffeDelivery from "../../assets/portfolio/coffedelivery.png";
+import SubscriManager from "../../assets/portfolio/subscrmanager.png";
 // import reactWeather from "../../assets/portfolio/reactWeather.jpg";
 
 import { Link } from "react-router-dom";
@@ -82,12 +85,55 @@ export const Projetos = () => {
         "Seu assistente de compras pessoal: simplifique sua vida, crie sua lista de compras de forma fácil e eficiente.",
       technologies: ["ReactJS"],
     },
+    {
+      id: 7,
+      src: MeuMercado,
+      code: "https://github.com/gfellipe/Meu-Mercado",
+      demo: "https://meu-mercado-three.vercel.app/",
+      name: "Meu Mercado",
+      description:
+        "Bem-vindo ao meu projeto de e-commerce! Este projeto foi desenvolvido como parte do meu estudo em ReactJS e Context API. Aqui, os usuários podem explorar produtos, adicionar itens ao carrinho e removê-los de maneira simples e intuitiva.",
+      technologies: ["ReactJS", "Context API", "Mercado Livre AP"],
+    },
+    {
+      id: 8,
+      src: CoffeDelivery,
+      code: "https://github.com/gfellipe/CoffeDelivery",
+      demo: "https://coffe-delivery-sandy-seven.vercel.app/",
+      name: "CoffeDelivery",
+      description:
+        "O Coffee Delivery é uma plataforma de entrega de café que facilita a seleção e o pedido de produtos. Você pode adicionar itens ao carrinho, ajustar a quantidade, confirmar o pedido e inserir dados de entrega.",
+      technologies: [
+        "ReactJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "Redux",
+        "Axios",
+        "React-Toastify",
+      ],
+    },
+    {
+      id: 9,
+      src: SubscriManager,
+      code: "https://github.com/gfellipe/SubscrManager",
+      demo: "https://subscr-manager.vercel.app/",
+      name: "SubscriManager",
+      description:
+        "O Gerenciador de Assinaturas é um aplicativo para gerenciar suas assinaturas, permitindo adicionar, categorizar, acompanhar datas de renovação e gerar relatórios de gastos. É uma ferramenta essencial para manter suas assinaturas organizadas e seus gastos sob controle.",
+      technologies: [
+        "ReactJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Recharts",
+      ],
+    },
   ];
 
   return (
     <div
       name="Projetos"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
